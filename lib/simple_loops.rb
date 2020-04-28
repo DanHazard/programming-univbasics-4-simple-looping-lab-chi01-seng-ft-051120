@@ -32,4 +32,5 @@ def return_string_array(array)
     newArray << newStr
     counter += 1 
   end
+  newArray
 end
