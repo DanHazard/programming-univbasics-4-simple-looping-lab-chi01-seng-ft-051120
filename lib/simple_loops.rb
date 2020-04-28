@@ -26,5 +26,6 @@ end
 
 def return_string_array(array)
   counter = 0 
-  while counter <= array
+  while counter <= array.length do
+    newStr = array.unshift(counter).to_s
 end
