@@ -26,6 +26,10 @@ end
 
 def return_string_array(array)
   counter = 0 
+  newArray = []
   while counter <= array.length do
-    newStr = array.unshift(counter).to_s
+    newStr = array.unshift(counter).to_s 
+    newArray << newStr
+  end
+  p newArray
 end
