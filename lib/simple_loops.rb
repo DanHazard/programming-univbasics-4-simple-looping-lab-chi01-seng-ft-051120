@@ -30,6 +30,7 @@ def return_string_array(array)
   while counter <= array.length do
     newStr = array.unshift(counter).to_s 
     newArray << newStr
+    counter += 1 
   end
   p newArray
 end
